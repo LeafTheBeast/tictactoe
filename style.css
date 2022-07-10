@@ -1,0 +1,52 @@
+.fields {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 0;
+}
+
+.field {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    position: relative;
+
+}
+
+.different {
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 10px solid indianred;
+    border-radius: 50%;
+    margin: 20%;
+}
+
+.cross {
+    margin: 20% 40%;
+}
+
+.cross_one {
+    height: 125px;
+    width: 10px;
+    margin-left: 12px;
+    background-color: indianred;
+    transform: rotate(45deg);
+    Z-index: 1;
+
+}
+
+.cross_two {
+    height: 125px;
+    width: 10px;
+    background-color: indianred;
+    transform: rotate(90deg);
+    Z-index: 2;
+}
+
+
